@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
   font-family: "Inter", sans-serif;
-  background-color: #f7fafc;
+}
+
+a {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 }
 
 span {
-  font-family: Playfair Display, serif;
+  font-family: Montserrat, sans-serif;
 }
 
 @theme {
@@ -26,6 +30,7 @@ span {
   --color-light-republican: #c53030;
   --color-light-success: #38a169;
   --color-light-warning: #d69e2e;
+  --color-light-link: #2d3748;
 
   --color-dark-header: #e2e8f0;
   --color-dark-bg: #1a202c;
@@ -35,4 +40,37 @@ span {
   --color-dark-republican: #f56565;
   --color-dark-success: #48bb78;
   --color-dark-warning: #ed8936;
+  --color-dark-link: #cbd5e0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #f7fafc;
+  }
+
+  .active {
+    color: #1a365d;
+    border-bottom-color: #3182ce;
+    font-weight: 600;
+  }
+
+  a:hover {
+    color: #3182ce;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #1a202c;
+  }
+
+  .active {
+    color: #ffffff;
+    border-bottom-color: #4299e1;
+    font-weight: 600;
+  }
+
+  a:hover {
+    color: #4299e1;
+  }
 }
