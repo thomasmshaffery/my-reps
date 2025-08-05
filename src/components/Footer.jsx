@@ -3,7 +3,7 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <>
-      <footer className="bg-lines dark:bg-dark-content rounded-lg shadow-sm m-4">
+      <footer className="bg-lines dark:bg-dark-content rounded-lg m-4">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-light-bodytext dark:text-dark-bodytext sm:text-center dark:text-gray-400">
             MY REPS -
