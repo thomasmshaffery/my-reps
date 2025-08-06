@@ -46,6 +46,15 @@ span {
 @media (prefers-color-scheme: light) {
   :root {
     background-color: #f7fafc;
+    opacity: 0.8;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #edf2f7 0,
+      #edf2f7 0.7000000000000001px,
+      #f7fafc 0,
+      #f7fafc 50%
+    );
   }
 
   .active {
