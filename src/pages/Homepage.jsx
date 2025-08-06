@@ -23,19 +23,19 @@ function Homepage() {
             establish this Constitution for the United States of America."
           </p>
         </div>
-        <div className="w-dvw py-5 h-fit bg-light-header dark:bg-dark-bg border-b-1 border-b-lines dark:border-b-dark-content content-center">
-          <p className="w-2/3 text-light-bg justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/8 sm:w-1/2 dark:text-dark-bodytext text-wrap">
+        <div className="w-dvw py-3 h-fit bg-light-header dark:bg-linear-to-b dark:to-dark-bg dark:from-dark-content/70 content-center">
+          <p className="w-2/3 pt-2 text-light-bg justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/8 sm:w-1/2 dark:text-dark-link text-wrap">
             Your elected officials enact laws that influence the daily lives of
-            all Americans and is intended to serve as the voice of the people.
+            all Americans and are intended to serve as the voice of the people.
             There are over 500 members of the current U.S. Congress. MY REPS
             aims to make finding yours convenient and fast. You can filter by
             state, party and other metrics to find your representatives.
           </p>
         </div>
-        <div className="flex py-5 w-dvw h-auto justify-center justify-items-center">
+        <div className="flex bg-light-header dark:bg-dark-bg py-5 w-dvw h-auto justify-center justify-items-center">
           <Link
             to="app"
-            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat text-light-bg pt-2 px-2 rounded-sm"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm"
           >
             Find Out More
           </Link>
