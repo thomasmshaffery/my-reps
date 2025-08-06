@@ -32,28 +32,28 @@ span {
   --color-light-warning: #d69e2e;
   --color-light-link: #2d3748;
 
-  --color-dark-header: #e2e8f0;
-  --color-dark-bg: #1a202c;
-  --color-dark-content: #2d3748;
-  --color-dark-bodytext: #a0aec0;
-  --color-dark-democrat: #4299e1;
-  --color-dark-republican: #f56565;
-  --color-dark-success: #48bb78;
-  --color-dark-warning: #ed8936;
+  --color-dark-header: #f7fafc;
+  --color-dark-bg: #0c0f14;
+  --color-dark-content: #1a1e26;
+  --color-dark-bodytext: #9ca3af;
+  --color-dark-democrat: #60a5fa;
+  --color-dark-republican: #f87171;
+  --color-dark-success: #4ade80;
+  --color-dark-warning: #fbbf24;
   --color-dark-link: #cbd5e0;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    background-color: #f7fafc;
+    background-color: #f1f5f8;
     opacity: 0.8;
     background-size: 7px 7px;
     background-image: repeating-linear-gradient(
       45deg,
-      #edf2f7 0,
-      #edf2f7 0.7000000000000001px,
-      #f7fafc 0,
-      #f7fafc 50%
+      #d5d9de 0,
+      #d5d9de 0.7000000000000001px,
+      #f1f5f8 0,
+      #f1f5f8 50%
     );
   }
 
@@ -70,7 +70,16 @@ span {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background-color: #1a202c;
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #282a2f 0,
+      #282a2f 0.7000000000000001px,
+      #000000 0,
+      #000000 50%
+    );
   }
 
   .active {
