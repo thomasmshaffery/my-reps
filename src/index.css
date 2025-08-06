@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -9,6 +10,10 @@
 a {
   border-bottom: 2px solid transparent;
   padding-bottom: 2px;
+}
+
+h2 {
+  font-family: "Herr Von Muellerhoff";
 }
 
 span {

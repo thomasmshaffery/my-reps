@@ -7,7 +7,7 @@ function Navbar() {
       <div className="max-w-full mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Logo />
-          <div className="flex justify-between gap-3 text-sm text-light-bodytext dark:text-dark-link sm:text-lg sm:font-light">
+          <div className="flex justify-between gap-5 text-sm text-light-bodytext dark:text-dark-link sm:text-lg sm:font-light">
             <NavLink to="/Congress">Congress</NavLink>
             <NavLink to="/Senate">Senate</NavLink>
             <NavLink to="/House">House of Reps</NavLink>
