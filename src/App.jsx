@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import House from "./pages/House";
 import Senate from "./pages/Senate";
 import Homepage from "./pages/Homepage";
@@ -11,10 +11,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Homepage />} />
-        <Route path="app" element={<AppLayout />} />
-        <Route path="house" element={<House />} />
-        <Route path="senate" element={<Senate />} />
-        <Route path="congress" element={<Congress />} />
+        <Route path="app" element={<AppLayout />}>
+          <Route index element={<Navigate replace to="congress" />} />
+          <Route path="house" element={<House />} />
+          <Route path="senate" element={<Senate />} />
+          <Route path="congress" element={<Congress />} />
+        </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
