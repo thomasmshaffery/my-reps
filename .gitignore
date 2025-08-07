@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # API Key
-./src/key.js
+src/key.js
