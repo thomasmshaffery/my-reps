@@ -5,21 +5,24 @@ import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
 import Congress from "./pages/Congress";
 import AppLayout from "./pages/AppLayout";
+import { CongressProvider } from "./contexts/CongressContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Homepage />} />
-        <Route path="app" element={<AppLayout />}>
-          <Route index element={<Navigate replace to="congress" />} />
-          <Route path="house" element={<House />} />
-          <Route path="senate" element={<Senate />} />
-          <Route path="congress" element={<Congress />} />
-        </Route>
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
-    </BrowserRouter>
+    <CongressProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Homepage />} />
+          <Route path="app" element={<AppLayout />}>
+            <Route index element={<Navigate replace to="congress" />} />
+            <Route path="house" element={<House />} />
+            <Route path="senate" element={<Senate />} />
+            <Route path="congress" element={<Congress />} />
+          </Route>
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </CongressProvider>
   );
 }
 export default App;

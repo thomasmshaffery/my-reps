@@ -15,7 +15,7 @@ function Homepage() {
           <h2 className="text-light-heading dark:text-dark-heading justify-self-center font-light sm:text-6xl">
             "We the People...
           </h2>
-          <p className="w-2/3 pt-5 justify-self-center text-xs/5 font-[Inter] font-light line-clamp-5 sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-wrap">
+          <p className="w-2/3 pt-3 justify-self-center text-xs/5 font-[Inter] font-light line-clamp-5 sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-wrap">
             of the United States, in Order to form a more perfect Union,
             establish Justice, insure domestic Tranquility, provide for the
             common defense, promote the general Welfare, and secure the
