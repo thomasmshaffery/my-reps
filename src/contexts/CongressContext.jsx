@@ -12,12 +12,12 @@ function CongressProvider({ children }) {
       try {
         setIsLoading(true);
         const res = await fetch(
-          `https://api.congress.gov/v3/congress?format=json&api_key=${key}`
+          `https://api.congress.gov/v3/member?format=json&limit=250&api_key=${key}`
         );
         if (!res.ok) throw new Error("Unable to get Congress.");
 
         const data = await res.json();
-        setCongress(data);
+        setCongress(data.members);
       } catch (err) {
         throw new Error(err);
       } finally {
