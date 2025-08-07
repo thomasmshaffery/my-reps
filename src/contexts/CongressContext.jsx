@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import key from "../key.js";
 
 const CongressContext = createContext();
 
@@ -11,7 +12,7 @@ function CongressProvider({ children }) {
       try {
         setIsLoading(true);
         const res = await fetch(
-          `https://jsonplaceholder.typicode.com/users/1/posts`
+          `https://api.congress.gov/v3/congress?format=json&api_key=${key}`
         );
         if (!res.ok) throw new Error("Unable to get Congress.");
 
