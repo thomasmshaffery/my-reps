@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route index element={<Homepage />} />
           <Route path="app" element={<AppLayout />}>
-            <Route index element={<Navigate replace to="congress" />} />
+            <Route index element={<Navigate replace to="/app/Congress" />} />
             <Route path="house" element={<House />} />
             <Route path="senate" element={<Senate />} />
             <Route path="congress" element={<Congress />} />
