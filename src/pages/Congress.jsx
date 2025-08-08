@@ -12,7 +12,138 @@ function Congress() {
     // </button>
     <>
       <div className="w-full bg-[url(/src/images/fan_yang_congress.jpg)] h-fit bg-cover bg-center">
-        <div className="w-full h-60 bg-linear-to-b from-light-bg/40 to-light-warning/50 border-b border-b-lines dark:border-b-dark-content"></div>
+        <div className="w-full h-60 bg-linear-to-b from-light-bg/40 to-light-democrat/50 border-b border-b-lines dark:border-b-dark-content"></div>
+      </div>
+      <div className="w-full p-4">
+        <p className="w-2/3 pt-3 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
+          <span className="text-light-header dark:text-dark-header font-bold">
+            Congress{" "}
+          </span>
+          enacts laws that influence the daily lives of all Americans and is
+          intended to serve as the voice of the people. Congress is a bicameral
+          legislature divided into two equal institutions: the House of
+          Representatives and the Senate. Each state sends elected
+          representatives and senators to Congress. Although the House and the
+          Senate are structured differently and have their own roles and
+          responsibilities, they work together to pass legislation. No bill can
+          become a law without passing both houses of Congress.
+        </p>
+        <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+
+        <p className="w-2/3 pb-12 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
+          <span className="text-light-header dark:text-dark-header font-bold">
+            Passing{" "}
+          </span>
+          laws requires both chambers of Congress. There are several different
+          ways to pass bills into law. In order for a bill to be passed into law
+          both chambers of Congress and the President must agree. The following
+          is a very basic explanation of the process.
+        </p>
+
+        <ol class="justify-self-center w-2/3 space-y-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-header">
+              1
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Bill Introduction</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                A member of Congress introduces a bill into his or her
+                legislative chamber.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              2
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Bill Referal</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                The presiding officer of that chamber refers the proposed
+                legislation to one or more committees, depending on its subject.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              3
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Bill Review</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                Committee members review the bill and decide whether to hold
+                public hearings, to combine it with related draft legislation,
+                to propose amendments, to recommend that the chamber in which it
+                was introduced consider it favorably, or to set it aside for
+                possible later review.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              4
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Bill Debate</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                If the committee, or committees, return the bill to the chamber
+                of the body in which it was introduced, members debate the
+                measure and may consider further amendments.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              5
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Passing Chambers</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                The bill is then considered by the full chamber. If it passes,
+                the measure is referred to the other chamber, where this process
+                begins anew.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              6
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Congressional Approval</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                When a majority in the House, and in the Senate, agree the bill
+                should become law, it is signed and sent to the president.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              7
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Yay or Nay</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                The president may sign the act of Congress into law, or he may
+                veto it.
+              </p>
+            </span>
+          </li>
+          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+              8
+            </span>
+            <span>
+              <h3 class="font-medium leading-tight">Optional Override</h3>
+              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+                Congress can then override the president's veto by a two-thirds
+                vote of both the House and Senate thereby making the vetoed act
+                a law.
+              </p>
+            </span>
+          </li>
+        </ol>
       </div>
     </>
   );
