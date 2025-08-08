@@ -6,6 +6,7 @@ import CongressPhoto from "../images/ian_hutchinson_congress.jpg";
 function Homepage() {
   return (
     <div>
+      {window.scrollTo(0, 0)}
       <Navbar />
       <div className="h-auto bg-light-bg dark:bg-dark-bg text-light-bodytext dark:text-dark-bodytext text-4xl">
         <div className="w-dvw bg-[url(/src/images/ian_hutchinson_congress.jpg)] h-fit bg-cover">
