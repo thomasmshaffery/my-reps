@@ -8,9 +8,9 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Logo />
           <div className="flex justify-between gap-5 text-sm text-light-bodytext dark:text-dark-link sm:text-lg sm:font-light">
-            <NavLink to="Congress">Congress</NavLink>
-            <NavLink to="Senate">Senate</NavLink>
-            <NavLink to="House">House of Reps</NavLink>
+            <NavLink to="/app/Congress">Congress</NavLink>
+            <NavLink to="/app/Senate">Senate</NavLink>
+            <NavLink to="/app/House">House of Reps</NavLink>
           </div>
         </div>
       </div>

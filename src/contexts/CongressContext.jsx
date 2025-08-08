@@ -24,7 +24,7 @@ function CongressProvider({ children }) {
         setIsLoading(false);
       }
     }
-    fetchCongress();
+    // fetchCongress();
   }, []);
 
   return (
