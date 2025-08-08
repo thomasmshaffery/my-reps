@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import { useCongress } from "../contexts/CongressContext";
 
@@ -40,7 +41,7 @@ function Congress() {
           is a very basic explanation of the process.
         </p>
 
-        <ol class="justify-self-center w-2/3 space-y-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
+        <ol class="justify-self-center w-2/3 space-y-4 pb-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
             <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-header">
               1
@@ -144,6 +145,22 @@ function Congress() {
             </span>
           </li>
         </ol>
+        <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+
+        <div className="w-auto flex justify-center pb-10">
+          <Link
+            to="/app/Senate"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            Senate
+          </Link>
+          <Link
+            to="/app/House"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            House of Reps
+          </Link>
+        </div>
       </div>
     </>
   );
