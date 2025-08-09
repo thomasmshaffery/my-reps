@@ -32,7 +32,7 @@ function Congress() {
           responsibilities, they work together to pass legislation. No bill can
           become a law without passing both houses of Congress.
         </p>
-        <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+        <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
 
         <p className="w-2/3 pb-12 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
           <span className="text-light-header dark:text-dark-header font-bold">
