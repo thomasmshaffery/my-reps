@@ -46,7 +46,7 @@ function Congress() {
 
         <ol class="justify-self-center w-2/3 space-y-4 pb-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-header">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               1
             </span>
             <span>
@@ -58,7 +58,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               2
             </span>
             <span>
@@ -70,7 +70,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               3
             </span>
             <span>
@@ -85,7 +85,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               4
             </span>
             <span>
@@ -98,7 +98,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               5
             </span>
             <span>
@@ -111,7 +111,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               6
             </span>
             <span>
@@ -123,7 +123,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               7
             </span>
             <span>
@@ -135,7 +135,7 @@ function Congress() {
             </span>
           </li>
           <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-blue-500">
+            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               8
             </span>
             <span>
