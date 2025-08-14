@@ -127,7 +127,7 @@ function Congress() {
               7
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Yay or Nay</h3>
+              <h3 class="font-medium leading-tight">Presidential Action</h3>
               <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 The president may sign the act of Congress into law, or he may
                 veto it.
@@ -139,7 +139,7 @@ function Congress() {
               8
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Optional Override</h3>
+              <h3 class="font-medium leading-tight">Congressional Override</h3>
               <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 Congress can then override the president's veto by a two-thirds
                 vote of both the House and Senate thereby making the vetoed act
