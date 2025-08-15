@@ -6,6 +6,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Congress from "./pages/Congress";
 import AppLayout from "./pages/AppLayout";
 import { CongressProvider } from "./contexts/CongressContext";
+import FindReps from "./pages/FindReps";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="house" element={<House />} />
             <Route path="senate" element={<Senate />} />
             <Route path="congress" element={<Congress />} />
+            <Route path="findreps" element={<FindReps />} />
           </Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
