@@ -12,7 +12,7 @@ function Homepage() {
         <div className="w-dvw bg-[url(/src/images/ian_hutchinson_congress.jpg)] h-fit bg-cover">
           <div className="w-dvw h-60 bg-linear-to-b from-light-bg/40 to-light-democrat/50 border-b border-b-lines dark:border-b-dark-content"></div>
         </div>
-        <div className="w-dvw h-1/3 h-2/4 py-5 bg-lines dark:bg-dark-content border-b-1 border-b-lines dark:border-b-dark-content content-center">
+        <div className="w-dvw h-1/2 py-8 bg-lines dark:bg-dark-content border-b-1 border-b-lines dark:border-b-dark-content content-center">
           <h2 className="text-light-heading dark:text-dark-heading justify-self-center font-light sm:text-6xl">
             "We the People...
           </h2>
@@ -33,7 +33,7 @@ function Homepage() {
             state, party and other metrics to find your representatives.
           </p>
         </div>
-        <div className="flex bg-light-header dark:bg-dark-bg py-5 w-dvw h-auto justify-center justify-items-center">
+        <div className="flex bg-light-header dark:bg-dark-bg py-4 w-dvw h-auto justify-center justify-items-center">
           <Link
             to="app"
             className="text-sm font-bold sm:text-lg sm:mt-5 bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm"
