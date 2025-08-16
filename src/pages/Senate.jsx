@@ -43,10 +43,10 @@ function Senate() {
           for you to be eligible: you must be at least 30 years of age, you must
           be a citizen for at least 9 years and you must currently reside in the
           state in which you are running for office. Despite the minimum age
-          requirement almost two-thirds of the active Senate are at least double
-          the minimum age. Only one third of the current Senate has been serving
-          for longer than 17 years; therefore that despite the founders
-          intentions of there being turnover, a majority are still double the
+          requirement almost two-thirds of the active Senate are at least sixty
+          years old. Only one third of the current Senate has been serving for
+          longer than 17 years; therefore while founders intentions of having
+          senator turnover remains intact a majority are still double the
           minimum age requirement.
         </p>
       </div>
