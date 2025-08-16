@@ -15,6 +15,12 @@ function Senate() {
           <span className="text-light-header dark:text-dark-header font-bold">
             The Senate{" "}
           </span>
+          is comprised of two elected officials from each state. As members of
+          Congress the Senate is a fundamental part of creating laws. However
+          they have powers beyond lawmaking such as filibustering legislation,
+          voting to close debate on legislation known as cloture, acting as the
+          judge and jury of impeachment trials and the power to approve
+          executive treaties by a two-thirds vote.
         </p>
       </div>
     </>

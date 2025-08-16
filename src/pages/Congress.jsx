@@ -32,6 +32,17 @@ function Congress() {
           responsibilities, they work together to pass legislation. No bill can
           become a law without passing both houses of Congress.
         </p>
+        <p className="w-2/3 pt-5 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
+          <span className="text-light-header dark:text-dark-header font-bold">
+            Congress{" "}
+          </span>
+          has many responsibilities beyond lawmaking. Congress is responsibile
+          for passing the federal budget, oversight of the Executive branch as
+          well as being the only body in the U.S. government that can declare
+          war. Congress has several means to establish meaningful oversight of
+          the government including agencies and hearings. Our representatives
+          are entrusted to act in the best interest of their constituents.
+        </p>
         <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
 
         <p className="w-2/3 pb-12 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
