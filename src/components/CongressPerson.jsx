@@ -1,4 +1,4 @@
-function CongressPerson() {
+function CongressPerson(person) {
   return (
     <div class="w-full max-w-sm bg-light-bg dark:bg-dark-bg border border-lines dark:border-dark-content rounded-lg shadow-sm">
       <div class="flex justify-end px-4 pt-4"></div>

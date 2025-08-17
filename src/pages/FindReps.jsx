@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useCongress } from "../useCongress";
+import Loader from "../components/Loader";
 
 function FindReps() {
   {
@@ -6,7 +8,11 @@ function FindReps() {
   }
 
   const [state, setState] = useState(null);
+  const { congress, isLoading, error } = useCongress(state);
 
+  function onPrintCongress() {
+    console.log(congress);
+  }
   return (
     <>
       <div className="w-full bg-[url(/src/images/danny_de_compass.jpg)] h-fit bg-cover bg-center">
@@ -18,7 +24,7 @@ function FindReps() {
         </h1>
         <form className="max-w-sm mx-auto">
           <label
-            for="countries"
+            htmlFor="countries"
             className="block mb-2 text-sm font-medium text-light-bodytext dark:text-dark-bodytext"
           >
             Select Your State
@@ -28,7 +34,7 @@ function FindReps() {
             className="bg-light-bg dark:bg-dark-content border border-lines text-light-bodytext dark:text-dark-bodytext text-sm rounded-lg focus:ring-light-democrat dark:focus:ring-dark-democrat focus:border-light-link dark:focus:border-dark-link block w-full p-2.5 dark:border-dark-link dark:placeholder-dark-bodytext"
             onChange={(e) => setState(e.target.value)}
           >
-            <option selected>Choose a State</option>
+            <option defaultValue="">Choose a State</option>
             <option value="AL">AL - Alabama</option>
             <option value="AK">AK - Alaska</option>
             <option value="AZ">AZ - Arizona</option>
@@ -81,6 +87,13 @@ function FindReps() {
             <option value="WY">WY - Wyoming</option>
           </select>
         </form>
+        <button
+          className="bg-light-bg dark:bg-dark-bg text-light-independent dark:text-dark-independent"
+          onClick={onPrintCongress}
+        >
+          Print
+        </button>
+        {isLoading && <Loader />}
       </div>
     </>
   );
