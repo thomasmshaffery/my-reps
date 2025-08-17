@@ -45,38 +45,38 @@ function Congress() {
           is a very basic explanation of the process.
         </p>
 
-        <ol class="justify-self-center w-2/3 space-y-4 pb-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+        <ol className="justify-self-center w-2/3 space-y-4 pb-4 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 rtl:space-x-reverse">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               1
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Bill Introduction</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Bill Introduction</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 A member of Congress introduces a bill into his or her
                 legislative chamber.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               2
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Bill Referal</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Bill Referal</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 The presiding officer of that chamber refers the proposed
                 legislation to one or more committees, depending on its subject.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               3
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Bill Review</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Bill Review</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 Committee members review the bill and decide whether to hold
                 public hearings, to combine it with related draft legislation,
                 to propose amendments, to recommend that the chamber in which it
@@ -85,63 +85,67 @@ function Congress() {
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               4
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Bill Debate</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Bill Debate</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 If the committee, or committees, return the bill to the chamber
                 of the body in which it was introduced, members debate the
                 measure and may consider further amendments.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               5
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Passing Chambers</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Passing Chambers</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 The bill is then considered by the full chamber. If it passes,
                 the measure is referred to the other chamber, where this process
                 begins anew.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               6
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Congressional Approval</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">
+                Congressional Approval
+              </h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 When a majority in the House, and in the Senate, agree the bill
                 should become law, it is signed and sent to the president.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               7
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Presidential Action</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">Presidential Action</h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 The president may sign the act of Congress into law, or he may
                 veto it.
               </p>
             </span>
           </li>
-          <li class="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
-            <span class="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
+          <li className="flex items-center text-light-header dark:text-dark-header space-x-2.5 rtl:space-x-reverse">
+            <span className="flex items-center justify-center w-8 h-8 border border-light-header rounded-full shrink-0 dark:border-dark-democrat">
               8
             </span>
             <span>
-              <h3 class="font-medium leading-tight">Congressional Override</h3>
-              <p class="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
+              <h3 className="font-medium leading-tight">
+                Congressional Override
+              </h3>
+              <p className="text-xs text-justify text-light-bodytext dark:text-dark-bodytext">
                 Congress can then override the president's veto by a two-thirds
                 vote of both the House and Senate thereby making the vetoed act
                 a law.
@@ -149,7 +153,7 @@ function Congress() {
             </span>
           </li>
         </ol>
-        <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+        <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
 
         <div className="w-auto flex justify-center pb-10">
           <Link

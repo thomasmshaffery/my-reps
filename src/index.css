@@ -32,6 +32,7 @@ span {
   --color-light-bg: #f7fafc;
   --color-light-bodytext: #4a5568;
   --color-light-democrat: #3182ce;
+  --color-light-democratic: #3182ce;
   --color-light-republican: #c53030;
   --color-light-independent: #8b5cf6;
   --color-light-success: #38a169;
@@ -43,6 +44,7 @@ span {
   --color-dark-content: #1a1e26;
   --color-dark-bodytext: #9ca3af;
   --color-dark-democrat: #60a5fa;
+  --color-dark-democratic: #60a5fa;
   --color-dark-republican: #f87171;
   --color-dark-independent: #a855f7;
   --color-dark-success: #4ade80;
