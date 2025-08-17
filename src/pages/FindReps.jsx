@@ -11,9 +11,6 @@ function FindReps() {
   const [state, setState] = useState(null);
   const { congress, isLoading, error } = useCongress(state);
 
-  function onPrintCongress() {
-    console.log(congress);
-  }
   return (
     <>
       <div className="w-full bg-[url(/src/images/danny_de_compass.jpg)] h-fit bg-cover bg-center">

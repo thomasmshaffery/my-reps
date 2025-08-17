@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import Navbar from "../components/navbar";
-import CongressPhoto from "../images/ian_hutchinson_congress.jpg";
+import Navbar from "../components/Navbar";
 
 function Homepage() {
   return (
