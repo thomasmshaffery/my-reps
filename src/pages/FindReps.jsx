@@ -88,13 +88,7 @@ function FindReps() {
             <option value="WY">WY - Wyoming</option>
           </select>
         </form>
-        <button
-          className="bg-light-bg dark:bg-dark-bg text-light-independent dark:text-dark-independent"
-          onClick={onPrintCongress}
-        >
-          Print
-        </button>
-        {isLoading && <Loader />}
+        {isLoading && <Loader className="justify-self-center" />}
         {!isLoading && !error && state && <CongressList congress={congress} />}
       </div>
     </>

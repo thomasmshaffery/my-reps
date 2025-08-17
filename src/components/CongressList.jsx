@@ -5,9 +5,7 @@ function CongressList({ congress }) {
     <div className="justify-self-center flex flex-col">
       <ul className="my-4">
         {congress?.map((congressman) => (
-          <li className="my-4" key={congressman.bioguideID}>
-            <CongressPerson person={congressman} />
-          </li>
+          <CongressPerson person={congressman} key={congressman.bioguideId} />
         ))}
       </ul>
     </div>
