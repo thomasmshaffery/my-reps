@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useCongress } from "../useCongress";
 import Loader from "../components/Loader";
+import CongressList from "../components/CongressList";
 
 function FindReps() {
   {
@@ -94,6 +95,7 @@ function FindReps() {
           Print
         </button>
         {isLoading && <Loader />}
+        {!isLoading && !error && state && <CongressList congress={congress} />}
       </div>
     </>
   );
