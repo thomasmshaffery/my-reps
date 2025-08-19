@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import key from "./key";
+// import key from "./key";
 
 export function useCongress(state) {
   const [congress, setCongress] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const key = import.meta.env.VITE_API_KEY;
 
   useEffect(
     function () {
