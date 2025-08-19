@@ -12,7 +12,7 @@ function FindReps() {
       <div className="w-full bg-[url(/src/images/danny_de_compass.jpg)] h-fit bg-cover bg-center">
         <div className="w-full h-60 bg-linear-to-b from-light-bg/40 to-light-democrat/50 border-b border-b-lines dark:border-b-dark-content"></div>
       </div>
-      <div className="w-full p-4">
+      <div className="w-full p-4 content-center">
         <h1 className="text-sm sm:text-lg sm:justify-self-center sm:pt-4 sm:pb-8 pb-4 text-light-header dark:text-dark-header font-bold">
           Find Your Representatives
         </h1>
@@ -96,7 +96,8 @@ function FindReps() {
             <option value="WY">WY - Wyoming</option>
           </select>
         </form>
-        {isLoading && <Loader className="justify-self-center" />}
+
+        {isLoading && <Loader />}
         {!isLoading && !error && state && <CongressList congress={congress} />}
       </div>
     </>
