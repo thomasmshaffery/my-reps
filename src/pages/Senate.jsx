@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CongressPerson from "../components/CongressPerson";
 
 function Senate() {
@@ -49,6 +50,22 @@ function Senate() {
           senator turnover remains intact a majority are still double the
           minimum age requirement.
         </p>
+        <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+
+        <div className="w-auto flex justify-center pb-10">
+          <Link
+            to="/app/House"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            House of Reps
+          </Link>
+          <Link
+            to="/app/FindReps"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            Find Your Reps
+          </Link>
+        </div>
       </div>
     </>
   );

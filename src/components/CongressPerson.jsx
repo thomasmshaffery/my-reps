@@ -13,19 +13,22 @@ function CongressPerson({ person }) {
     }
   };
 
-  const avatar = person.depiction.imageUrl;
-  const state = person.state;
-  const congressChamber =
-    person.terms.item[person.terms.item.length - 1].chamber;
-  const pos = person.name.search(",");
-  const lastName = person.name.substr(0, pos);
-  const firstName = person.name.substr(pos + 1);
-  const partyBgColor = getPartyBgColor(person.partyName);
   function returnChamber() {
     if (congressChamber !== "Senate")
       return `https://${lastName}.house.gov/contact/`;
     return `https://www.${lastName}.senate.gov/?p=contact`;
   }
+
+  const avatar = person.depiction.imageUrl;
+  const state = person.state;
+  const district = person.district + "";
+  const pos = person.name.search(",");
+  const lastName = person.name.substr(0, pos);
+  const firstName = person.name.substr(pos + 1);
+  const congressChamber =
+    person.terms.item[person.terms.item.length - 1].chamber;
+  const partyBgColor = getPartyBgColor(person.partyName);
+
   const contact = returnChamber();
 
   return (
@@ -57,6 +60,11 @@ function CongressPerson({ person }) {
           <span className="inline-flex items-center px-4 py-2 text-xs font-medium text-center text-light-bodytext dark:text-dark-bodytext">
             {congressChamber}
           </span>
+          {district != "undefined" && (
+            <span className="inline-flex items-center px-4 py-2 text-xs font-medium text-center text-light-bodytext dark:text-dark-bodytext">
+              District: {district}
+            </span>
+          )}
         </div>
       </div>
     </div>

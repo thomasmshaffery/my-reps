@@ -4,10 +4,6 @@ import Loader from "../components/Loader";
 import CongressList from "../components/CongressList";
 
 function FindReps() {
-  {
-    window.scrollTo(0, 0);
-  }
-
   const [state, setState] = useState(null);
   const { congress, isLoading, error } = useCongress(state);
 
@@ -20,6 +16,21 @@ function FindReps() {
         <h1 className="text-sm sm:text-lg sm:justify-self-center sm:pt-4 sm:pb-8 pb-4 text-light-header dark:text-dark-header font-bold">
           Find Your Representatives
         </h1>
+        <p className="w-2/3 pt-5 indent-4 justify-self-center text-xs/5 font-[Inter] font-light sm:text-sm/7 sm:line-clamp-none sm:indent-8 sm:w-1/2 text-light-bodytext dark:text-dark-bodytext text-justify">
+          <span className="text-light-header dark:text-dark-header font-bold">
+            Your{" "}
+          </span>
+          representatives are here to serve you. You can find your state
+          representatives by selecting your state from the drop down selector
+          below. Each representative will have their photo if available, their
+          state, political party, district if available and a contact link. The
+          links work for many but not all representatives; if your
+          representative's contact link does not work please do a web search for
+          their name, state and district and you should be able to find their
+          site.
+        </p>
+        <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+
         <form className="max-w-sm mx-auto">
           <label
             htmlFor="countries"

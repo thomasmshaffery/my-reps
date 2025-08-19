@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function House() {
   return (
     <>
@@ -44,6 +46,22 @@ function House() {
           only 17% of its current members are women aged 59 or younger.
           Meanwhile, a third of the total members are men aged 59 or over.
         </p>
+        <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-light-bodytext to-transparent opacity-25 dark:via-dark-bodytext" />
+
+        <div className="w-auto flex justify-center pb-10">
+          <Link
+            to="/app/Senate"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            Senate
+          </Link>
+          <Link
+            to="/app/FindReps"
+            className="text-sm font-bold sm:text-lg bg-light-democrat hover:bg-light-bg dark:bg-dark-democrat dark:hover:bg-dark-content text-light-bg pt-2 px-2 rounded-sm mx-2"
+          >
+            Find Your Reps
+          </Link>
+        </div>
       </div>
     </>
   );
